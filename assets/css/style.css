@@ -1,0 +1,27 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    -ms-overflow-style: scrollbar;
+    overflow-y: scroll;
+    overscroll-behavior-y: none;
+}
+
+#header {
+    background-color: #f1f1f1; /* Grey background */
+
+    color: black;
+    font-size: 90px; /* Big font size */
+    font-weight: bold;
+    position: fixed; /* Fixed position - sit on top of the page */
+    top: 0;
+    width: 100%; /* Full width */
+    transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+}
+
+main {
+    height: 2000px;
+}
+
+#shrink {
+    width: 100px; /* Full width */
+    transition: 0.2s; /* Add a transition effect (when scrolling - and font size is decreased) */
+}
